@@ -1,0 +1,158 @@
+
+.Signin{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 110px;
+    
+
+
+}
+.firstform{
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding:10px 20px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.secondform{
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding:10px 20px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.firstform:before{
+    content:"";
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    bottom:-2px;
+    position: absolute;
+    background-color:white;
+    z-index: -1;
+    
+}
+.firstform:after{
+    content:"";
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    bottom:-2px;
+    position: absolute;
+    background-color:black;
+    z-index: -2;
+    filter:blur(80px);
+}
+.firstform:after{
+    background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+.secondform:before{
+    content:"";
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    bottom:-2px;
+    position: absolute;
+    background-color:white;
+    z-index: -1;
+}
+.secondform:after{
+    content:"";
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    bottom:-2px;
+    position: absolute;
+    background-color:black;
+    z-index: -2;
+    filter:blur(80px);
+}
+.secondform:after{
+    background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+.input{
+    position: relative;
+    outline: none;
+}
+.one{
+    position: absolute;
+    top:8px;
+    left:0;
+    font-size: 1.2em;
+    font-weight: bold;
+    pointer-events: none;
+
+}
+p{
+    margin-top: 20px;
+}
+.inpone{
+    border:none;
+    border-bottom: 2px solid #0d110f;
+    border-radius: 4px;
+    outline:none;
+    height: 29px;
+    width:250px;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.inpone:focus ~.one{
+    color:black;
+    transform: translateY(-26px);
+}
+.inpone:focus{
+    background-color: black;
+    color:bisque
+}
+.buttons{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.login{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff9001;
+    color:aliceblue;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+.google{
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(32, 172, 227);
+    margin-right: 10px;
+    border-radius: 7px;
+}
+.login:hover, 
+.google:hover{
+    background-color: #0d110f;
+    color:white;
+    font-style: italic;
+}.signup{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0d110f;
+    color:aliceblue;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+.signup:hover{
+    background-color:lightgreen;
+    color: black;
+    font-style: italic;
+} 
+
+
+

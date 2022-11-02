@@ -1,0 +1,42 @@
+.Checkitem{
+    display: flex;
+    width:100%;
+
+    min-height:100px;
+    padding: 15px 0;
+    font-size: 20px;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+
+}
+.image-container{
+    width:23%;
+    padding-right: 16px;
+}
+.image-container img{
+    width:100%;
+    height:100%;
+}
+.checkitem-name, 
+.price, 
+.quantity{
+    width:23%;
+}
+.price, 
+.quantity{
+    padding-left: 10px;
+}
+.remove-item{
+    width:4%;
+    cursor: pointer;
+}
+.quantity{
+    padding-left: 20px;
+    display: flex;
+}
+.quantity-num{
+    padding: 0 6px;
+}
+.arrow{
+    cursor:pointer;
+}
